@@ -303,3 +303,21 @@ textarea {
     }
 }
 
+.cube {
+    background: #ECEDE7;
+    font-family: 'Inconsolata';
+}
+.cube section {
+    background: white;
+    color: #000002;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6,strong,em,b {
+    color: #EDA833;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}

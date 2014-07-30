@@ -3,6 +3,6 @@ $(function () {
         keys: true,
         hash: true,
         progress: true,
-        bullets: 'li, .bullet'
+        bullets: '.bullet'
     });
 });

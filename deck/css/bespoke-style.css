@@ -90,3 +90,20 @@ section.bespoke-inactive {
   height: 15px;
   background: #EDA833;
 }
+
+/* bespoke-bullet rules */
+.bespoke-bullet {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.bespoke-bullet-inactive {
+	opacity: 0.2;
+}
+
+.bespoke-bullet-active {
+	opacity: 1;
+}

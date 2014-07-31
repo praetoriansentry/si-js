@@ -97,6 +97,19 @@
                 <p> Notably, there is no data type for a single character </p>
             </section>
             <section>
+                <h2> Variables </h2>
+                <p>
+                    Variables define a symbolic name for a value and allows the value to be referred by name<sup>1</sup>.
+                    Before you use a variable, you should declare it. Variables are declared with the <code>var</code> keyword
+                </p>
+                <img src="img/variables-console.jpg" height="250" style="margin: 0 auto; display: block;"/>
+                <footer>
+                    <sup>
+                        1. D. Flanagan, JavaScript: The Definitive Guide: Activate Your Web Pages, 6 edition. O'Reilly Media, 2011.
+                    </sup>
+                </footer>
+            </section>
+            <section>
                 <h2> Object </h2>
                 <p>
                     An <em>object</em> is a collection of properties where each
@@ -140,6 +153,104 @@
                         1. D. Flanagan, JavaScript: The Definitive Guide: Activate Your Web Pages, 6 edition. O'Reilly Media, 2011.
                     </sup>
                 </footer>
+            </section>
+            <section>
+                <h1> Operators </h1>
+                <dl>
+                    <dt>+,-,*,/</dt>
+                    <dd>Add, subtract, multiply, divide</dd>
+                    <dt>&gt;,&gt;=,&lt;,&lt;=</dt>
+                    <dd>Compare operands in order</dd>
+                    <dt>==, !== </dt>
+                    <dd>Test for equality and inequality</dd>
+                    <dt>===, !== </dt>
+                    <dd>Test for strict equality and inequality </dd>
+                    <dt> &amp;&amp;, || </dt>
+                    <dd> Logical AND, OR </dd>
+                </dl>
+            </section>
+            <section>
+                <h1> Operator Examples </h1>
+                <img src="img/operator-console.jpg" height="300" style="margin: 0 auto; display: block;"/>
+                <p>
+                    Many operators are polymorpic.
+                </p>
+            </section>
+            <section>
+                <h1> Statements </h1>
+                <p> The statements in JavaScript will look familiar from Java / C </p>
+                <ul>
+                    <li> <code>if (something) { statement 1 } <br/> [else { statement 1}] </code> </li>
+                    <li> <code>while (something) {statements} </code> </li>
+                    <li> <code>for (init; test; increment) {statements} </code> </li>
+                    <li> <code>switch (expression) {case/default statements} </code></li>
+                    <li> <code> try {statements} <br/> [catch {statements}] <br/> [finally {statements}] </code> </li>
+                </ul>
+            </section>
+            <section>
+                <h1> Pause </h1>
+                <p>
+                    So far, we've covered the fundamentals of core
+                    JavaScript, but it's not clear how we use
+                    it to make webpages come alive.
+                </p>
+
+                <p>
+                    Now we'll cover client-side
+                    JavaScript. Client-side means that the JavaScript
+                    code is running within a web browser.
+                </p>
+            </section>
+            <section>
+                <h1> DOM </h1>
+                <p>
+                    "The Document Object Model (DOM) is a
+                    cross-platform and language-independent convention
+                    for representing and interacting with objects in
+                    HTML, XHTML and XML documents.[1] Objects in the
+                    DOM tree may be addressed and manipulated by using
+                    methods on the objects. The public interface of a
+                    DOM is specified in its application programming
+                    interface (API)" <sup>1</sup>.
+                </p>
+                <p>
+                    Simpler version: The DOM is the API used to manipulate web pages.
+                </p>
+                <footer>
+                    <sup>
+                        1. Document Object Model, Wikipedia, the free encyclopedia. 27-Jul-2014.
+                    </sup>
+                </footer>
+            </section>
+            <section>
+                <h1> DOM Simple Example </h1>
+                <img src="img/simple-page.jpg" height="400" style="margin: 0 auto; display: block;"/>
+            </section>
+            <section>
+                <h1> Dom Representation </h1>
+                <img src="img/dom.png" height="400" style="margin:0 auto; display:block;" />
+            </section>
+            <section>
+                <h1> Dom Manipulation </h1>
+                <p>
+                    Executing the following code changes the webpage.
+                </p>
+                <img src="img/dom-console.jpg" width="100%" style="margin:0 auto; display:block;" />
+                <p>
+                    Now the <code>h1</code> element has been updated.
+                </p>
+                <img src="img/changed.jpg" style="margin:0 auto; display:block;" />
+            </section>
+            <section>
+                <h1> Learn more </h1>
+                <p>
+                    The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">Mozilla Developer Network</a> has great documentation.
+                    <br />
+                    <a href="http://www.quirksmode.org/dom/contents.html">QuirksMode</a> is a great resource for understanding compatibility for different browsers.
+                    <br /> <br />
+                    In the last example I used <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelector">document.querySelector</a> and also <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node.textContent">node.textContent</a>.
+                </p>
+                <u>
             </section>
         </article>
 

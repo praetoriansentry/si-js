@@ -31,7 +31,8 @@
                     <img src="img/js.png" width="200"/>
                     <p>
                         August 1, 2014 <br/>
-                        Startup Institute
+                        Startup Institute <br/>
+                        Follow Along <a href="http://bit.ly/si-js">bit.ly/si-js</a>
                     </p>
                 </div>
             </section>
@@ -50,8 +51,8 @@
                     <li> Language Fundamentals </li>
                     <li> Document Object Model - DOM </li>
                     <li> Events and Listeners </li>
-                    <li> Ajax </li>
                     <li> jQuery </li>
+                    <li> Ajax </li>
                     <li> Exercises </li>
             </section>
             <section>
@@ -249,8 +250,100 @@
                     <a href="http://www.quirksmode.org/dom/contents.html">QuirksMode</a> is a great resource for understanding compatibility for different browsers.
                     <br /> <br />
                     In the last example I used <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelector">document.querySelector</a> and also <a href="https://developer.mozilla.org/en-US/docs/Web/API/Node.textContent">node.textContent</a>.
+                    <br /> <br />
+                    jQuery smooths over many of the details.
                 </p>
-                <u>
+            </section>
+            <section>
+                <h1> Events </h1>
+                <p>
+                    Web browsers generate an event whenever something
+                    interesting happens. A JavaScript application can
+                    register handlers which will execute when the
+                    event occurs. Example event types:
+                </p>
+                <ul>
+                    <li> <code>click</code> &mdash; When something is clicked </li>
+                    <li> <code>keypress</code> &mdash; When a key is pressed down </li>
+                    <li> <code>load</code> &mdash; When a resource has finished loading </li>
+                </ul>
+                <p>
+                    There are very many different <a href="https://developer.mozilla.org/en-US/docs/Web/Events">event types</a>.
+                </p>
+            </section>
+            <section>
+                <h1> Event Example </h1>
+                <p>
+                    This is how you would use the DOM API to work with events.
+                </p>
+                <img src="img/event.jpg" width="100%" style="margin:0 auto; display:block;" />
+                <p> Relevant API docs: </p>
+                <ul>
+                    <li> <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelector">document.querySelector</a></li>
+                    <li> <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener">EventTarget.addEventListener</a></li>
+                    <li> <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventListener">EventListener</a></li>
+                    <li> <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event">Event</a></li>
+                    <li> <a href="https://developer.mozilla.org/en-US/docs/Web/API/event.currentTarget">event.currentTarget</a></li>
+            </section>
+            <section>
+                <h1> Result </h1>
+                <img src="http://i.imgur.com/0ke6yfX.gif" height="400" style="margin:0 auto; display: block;">
+            </section>
+            <section>
+                <h1> Browser Inconsistencies </h1>
+                <p>
+                    Each browser has subtle differences in its
+                    implementation of the DOM API. These differences
+                    can be extremely subtle and difficult to do debug.
+                </p>
+                <img src="img/browser-icons.jpg" width="100%" style="margin:0 auto; display: block;">
+            </section>
+            <section>
+                <h1>Enter jQuery</h1>
+                <img src="img/jquery.png" width="100%" style="margin:0 auto; display: block;" />
+                <p>
+                    jQuery simplifies common tasks and smooths over the various differences client-side APIs.
+                </p>
+            </section>
+            <section>
+                <h1> Examples </h1>
+                <img src="img/jquery-v-dom.jpg" width="100%" style="margin:0 auto; display: block;" />
+                <p>
+                    jQuery has a very full featured and <a href="http://api.jquery.com/">well documented API</a>.
+                </p>
+            </section>
+            <section>
+                <h1> Ajax </h1>
+                <p>
+                    "Ajax is a group of interrelated Web development
+                    techniques used on the client-side to create
+                    asynchronous Web applications. With Ajax, Web
+                    applications can send data to, and retrieve data
+                    from, a server asynchronously (in the background)
+                    without interfering with the display and behavior
+                    of the existing page.<sup>1</sup>"
+                </p>
+                <p>
+                    Simpler version: Ajax is a JavaScript technique
+                    allows data to be sent and received without
+                    reloading the page.
+                </p>
+                <footer>
+                    <sup>1. "Ajax (programming)," Wikipedia, the free encyclopedia. 22-Jul-2014. </sup>
+                </footer>
+            </section>
+            <section>
+                <h1> Ajax Example </h1>
+                <p> Use Ajax to retrieve some data and update the DOM with it </p>
+                <img src="img/ajax.jpg" width="100%" style="margin:0 auto; display: block;" />
+            </section>
+            <section>
+                <h2> Other Resources </h2>
+                <ul>
+                    <li> <a href="http://www.codecademy.com/tracks/javascript">JavaScript Codecademy</a> </li>
+                    <li> <a href="http://www.codecademy.com/tracks/jquery">jQuery Codecademy</a> </li>
+                    <li> <a href="http://www.jslint.com/">JSLint</a></li>
+                </ul>
             </section>
         </article>
 
